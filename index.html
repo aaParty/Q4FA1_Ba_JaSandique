@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <form id="form" onsubmit="return output ();">
+        <h2>
+            Sign-up Forum:
+        </h2>
+        <br>
+        <br>
+        <div class="group1">
+            <fieldset>
+                <label for="userName">
+                    Username:
+                </label>
+                <input type="text" class="object" id="userName" name="userName" onblur="bluring()" required onfocus="focusing(this)">
+            </fieldset>
+            <fieldset>
+                <label for="age">
+                    Age:
+                </label>
+                <input type="number" class="object" id="age" name="age" min="1" max="100" onblur="bluring()" required onfocus="focusing(this)">
+            </fieldset>
+        </div>
+        <br>
+        <br>
+        <div class="group1">
+            <fieldset>
+                <label for="password">
+                    Password:
+                </label>
+                <input type="password" class="object" id="password" name="password" onblur="bluring()" required onfocus="focusing(this)">
+            </fieldset>
+            <fieldset>
+                <label for="gender">
+                    Gender:
+                </label>
+                <select name="genders" class="object" id="gender" onblur="bluring()" required onfocus="focusing(this)">
+                    <option value="Undisclosed">
+                        Undisclosed
+                    </option>
+                    <option value="Male">
+                        Male
+                    </option>
+                    <option value="Female">
+                        Female
+                    </option>
+                </select>
+            </fieldset>
+        </div>
+        
+        <br>
+        <fieldset>
+            <input type = "reset" value = "Reset" class="special">
+            <input type = "submit" value = "Submit" class="special">
+        </fieldset>
+        <br>
+        <fieldset>
+            <h2>
+                Display:
+            </h2>
+            <div id="info">
+                <div class="output" id="USERNAME"> Username: </div>
+                <div class="output" id="PASSWORD"> Password: </div>
+                <div class="output" id="AGE"> Age: </div>
+                <div class="output" id="GENDER"> Gender: </div>
+            </div>
+        </fieldset>
+        
+    </form>
+
+</body>
+</html>

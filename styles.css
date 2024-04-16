@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&family=Open+Sans');
+
+body
+{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+.group1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p
+{
+    font-family: 'Roboto Slab';
+    color: rgb(179, 57, 155);
+}
+
+h2
+{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    color: rgb(65, 10, 54);
+}
+
+h3
+{
+    font-family: 'Roboto Slab';
+    font-weight: bold;
+    color: rgb(65, 10, 54);
+}
+
+label
+{
+    font-family: 'Roboto Slab';
+    color: rgb(132, 33, 112);
+}
+
+input
+{
+    font-family: 'Roboto Slab';
+    color: rgb(179, 57, 155);
+    width: 150px;
+}
+
+.special
+{
+    margin: 5px;
+    width: 75px;
+}
+
+.output
+{
+    margin: 10px;
+    font-family: 'Roboto Slab';
+    color: rgb(179, 57, 155);
+}
+
+option
+{
+    font-family: 'Roboto Slab';
+    color: rgb(179, 57, 155);
+}
+
+select
+{
+    font-family: 'Roboto Slab';
+    color: rgb(179, 57, 155);
+    width: 160px;
+    border-radius: 3px;
+    padding: 1px;
+}
+
+form
+{
+    margin: 10px;
+    padding: 25px;
+    width: 50vw;
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
+    border: black solid 2px;
+    border-radius: 15px;
+    top: 50%;
+}
+
+fieldset
+{
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+.output
+{
+    font-size: 15px;
+}
+
+#output
+{
+    color: black;
+    height: 100px;
+    width: 200px;
+}
+
+#info
+{
+    height: 100px;
+    width: 400px;
+}
